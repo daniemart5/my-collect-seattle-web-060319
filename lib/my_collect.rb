@@ -7,5 +7,5 @@ def my_collect(array)
     yield array[i]
     i = i + 1
   end
-  empty_array.upcase!
+  empty_array
 end
