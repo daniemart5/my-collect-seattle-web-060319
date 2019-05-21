@@ -5,6 +5,7 @@ def my_collect(array)
   while i < array.length
     yield array[i]
     i = i + 1
+    empty_array << array.call(element)
   end
-  empty_array << array.call(element)
+  empty_array
 end
